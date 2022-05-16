@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.div-titulo-principal{
+
+    text-align: center;
+    background-image: linear-gradient(to top , rgb(39, 201, 25) ,rgb(14, 165, 192));
+    overflow: hidden;
+}
+
+.titulo-principal{
+
+    font-family: Tahoma,sans-Serif;
+}
+
+.div-main{
+
+    text-align: center;
+    background-image: url(fondo-verde.webp);
+    background-repeat: no-repeat;
+    overflow: hidden ;
+    height: 1000px;
+}
+
+.div-form{
+
+    background-image: linear-gradient( to right , rgba(38, 209, 22, 0.849) , rgb(24, 194, 180) );
+    max-width: 300px;
+    position: relative;
+    left: 900px;
+    box-shadow: 5px , 5px , 5px black;
+}
+
+.inputs{
+
+width: 200px;
+height: 35px;
+}
